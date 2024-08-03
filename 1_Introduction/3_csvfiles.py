@@ -2,7 +2,7 @@ import pandas as pd
 
 # You can also read CSV files into a DataFrame.
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("1_Introduction\data.csv")
 print(df.to_string(),"\n") #.to__string() prints the entire file.
 # Note : Without to_string, it will only print the first 5 and last 5 rows of the dataframe.
 

@@ -4,7 +4,7 @@ import pandas as pd
 # It's a plain text file that has the format of an object.
 # We use .read_json to create a dataframe from a JSON file's content.
 
-data = pd.read_json("data.json")
+data = pd.read_json("1_Introduction\data.json")
 print(data.to_string())
 
 # If the JSON code is not in a file but in a Python Dictionary, you can directly load it in a DataFrame
