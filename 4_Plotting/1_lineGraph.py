@@ -8,4 +8,5 @@ df = pd.read_csv("4_Plotting\data.csv")
 
 df.plot()
 
+# To look at the final product, use plt.show().
 plt.show()
